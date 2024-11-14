@@ -28,9 +28,9 @@ newTrial('name',
 		.print()
 	,
 	
-	newText('Please enter your name.')
-		.css('margin', 'auto')
-		.css('margin-bottom', '3em')
+	newText('Please enter your name as it appears on your course roster.')
+		.css(centered_justified_style)
+		.css('margin-bottom', '1em')
 		.print()
 	,
 	
@@ -44,6 +44,7 @@ newTrial('name',
 	
 	newText('Please enter the name and number of the course for which you will receive extra credit.')
 		.css(centered_justified_style)
+		.css('margin-bottom', '1em')
 		.print()
 	,
 	
@@ -55,8 +56,9 @@ newTrial('name',
 		.print()
 	,
 	
-	newText('Please enter the name of the course instructor(s).')
+	newText("Please enter the name of your course's instructor(s).")
 		.css(centered_justified_style)
+		.css('margin-bottom', '1em')
 		.print()
 	,
 	
